@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>দানহার্ট - হালাল দান অ্যাপ</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#06140c;color:#fff;font-family:system-ui; padding:16px; max-width:480px; margin:0 auto}
+.top{display:flex;justify-content:space-between;align-items:center;margin:10px 0 20px}
+.logo{font-size:28px;font-weight:800}
+.logo span{color:#facc15}
+.card{background:linear-gradient(135deg,#143a22,#0f2b1a);border:1px solid #2a5c3a;border-radius:20px;padding:18px;margin-bottom:16px}
+.badge{background:#1f4d2f;color:#86efac;padding:4px 10px;border-radius:20px;font-size:12px}
+h2{font-size:20px;margin:10px 0}
+.bar{height:8px;background:#0a1f12;border-radius:10px;overflow:hidden;margin:10px 0}
+.fill{height:100%;background:linear-gradient(90deg,#facc15,#fde68a);width:72%}
+.btn{width:100%;background:#facc15;color:#000;padding:14px;border-radius:14px;border:none;font-weight:800;font-size:18px;margin-top:12px}
+.small{color:#a7f3d0;font-size:13px}
+</style>
+</head>
+<body>
+<div class="top">
+<div class="logo">❤️ দান<span>হার্ট</span><div style="font-size:12px;color:#86efac;font-weight:400">হালাল দান অ্যাপ</div></div>
+<div style="width:40px;height:40px;background:#1a3d28;border-radius:50%;display:flex;align-items:center;justify-content:center">👤</div>
+</div>
+
+<div class="card">
+<div>আসসালামু আলাইকুম, রহিম!</div>
+<div class="small">আজ আপনি ৳৫০০ দান করেছেন — আলহামদুলিল্লাহ</div>
+</div>
+
+<div class="card" style="border-color:#facc15">
+<div style="display:flex;justify-content:space-between;align-items:center">
+<div>🧮 যাকাত ক্যালকুলেটর</div><div class="badge">হিসাব করুন →</div>
+</div>
+<div style="margin-top:12px;background:#0d2818;padding:12px;border-radius:12px">
+<div style="display:flex;justify-content:space-between"><span class="small">নগদ অর্থ ও সম্পদ</span><span>৳৫,০০,০০০</span></div>
+<div style="display:flex;justify-content:space-between;margin-top:8px"><span class="small">মোট যাকাত (২.৫%)</span><span style="color:#facc15;font-weight:800">৳১২,৫০০</span></div>
+<div class="bar"><div class="fill"></div></div>
+<div class="small" style="text-align:center">ইসলামিক শরীয়াহ অনুযায়ী ২.৫% যাকাত হিসাব</div>
+</div>
+<button class="btn">এখনই যাকাত হিসাব করুন</button>
+</div>
+
+<div class="card">
+<div style="display:flex;justify-content:space-between">
+<div>❤️ সাদকা দান করুন</div><div class="badge">চলমান প্রজেক্ট</div>
+</div>
+<div style="background:#0d2818;padding:12px;border-radius:12px;margin-top:12px">
+<div>🍲 গরিবদের খাবার সহায়তা</div>
+<div class="small">লক্ষ্য ৳৫০,০০০ — সংগৃহীত ৳৩২,৫০০</div>
+<div class="bar"><div class="fill" style="width:65%"></div></div>
+<div style="margin-top:12px">💧 বিশুদ্ধ পানি প্রকল্প</div>
+<div class="small">লক্ষ্য ৳১,০০,০০০ — সংগৃহীত ৳২১,০০০</div>
+<div class="bar"><div class="fill" style="width:21%"></div></div>
+</div>
+<button class="btn">দান করুন ৳৫০০</button>
+</div>
+
+</body>
+</html>
